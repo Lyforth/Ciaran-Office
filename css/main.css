@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    background: #286ce6;
+    overflow: hidden;
+}
+.editor-body {
+    display: block;
+    background: white;
+    border-radius: 10px;    
+    width: 600px;
+    height: 500px;
+    margin-top: 60px;    
+}
+.text {    
+    margin-top: 100px;
+    width: 540px;
+    height: 360px;
+    border: white;
+    resize: none;
+    border-radius: 10px;       
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;    
+}
+select {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+.file {
+    position: relative;
+    float: left;
+    left: 20px;
+    top: 20px;
+}
+.btn {
+    background-color: #286ce6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+}
+ 
