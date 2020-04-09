@@ -10,15 +10,18 @@
         window.onload = function()  {
             CKEDITOR.replace( 'ciaran', {                                                                     
                         width: "600px",
-                        height: "500px"} );
+                        height: "400px"});
         };
     </script>     
 </head>
-<body>
-    <center><div class="editor-body">
-        <form>                      
-            <textarea class="text" id="ciaran" name="ciaran"></textarea>                    
-        </form>
-    </div></center>    
+<body>            
+    <center>
+        <div class="editor-body">
+            <form action="php/save-document.php" method="post" name="txt-editor">
+                <textarea class="text" id="ciaran" name="ciaran"></textarea>
+                <input type="submit" class="btn" value="Salvar">                                         
+            </form>
+        </div>
+    </center>       
 </body>
 </html>

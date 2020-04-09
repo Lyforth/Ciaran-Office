@@ -6,21 +6,14 @@ body, html {
     background: #286ce6;
     overflow: hidden;
 }
-.editor-body {
-    display: block;
-    background: white;
-    border-radius: 10px;    
+.editor-body {          
     width: 600px;
     height: 500px;
     margin-top: 60px;    
 }
-.text {    
-    margin-top: 100px;
-    width: 540px;
-    height: 360px;
+.text {   
     border: white;
-    resize: none;
-    border-radius: 10px;       
+    resize: none;          
 }
 textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
@@ -40,12 +33,25 @@ select {
     left: 20px;
     top: 20px;
 }
-.btn {
-    background-color: #286ce6;
-    color: white;
+.btn {    
+    background-color: white;
+    color: black;
     border: none;
     border-radius: 5px;
     width: 120px;
     height: 30px;
+    margin-top: 20px;       
 }
- 
+.btn-download {      
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;    
+    border-radius: 5px;
+    width: 120px;
+    height: 20px;
+    padding: 5px;
+    margin-top: 300px;    
+    text-decoration: none;
+    text-align: center;     
+} 
